@@ -2,18 +2,16 @@ package lesson3;
 
 public class MathOperations {
     public static void main(String[] args) {
-        int a = 5;
-        double b = 1.5;
+        double weight = 80, height = 200;
+        System.out.println(weight / Math.pow(height, 2));
 
-        double sum = a + b;
-        System.out.println(sum);
-        System.out.println(Math.round(Math.floor(a / b)));
-        System.out.println(a * b);
-        System.out.println("He");
+        char l = 70;
+        System.out.println(l);
+        char s = 'А' + 1;
+        String b = "ABCDE";
+        char k = b.charAt(1);
+        k+=1;
 
-        System.out.println(Math.round(Math.pow(2, 5)));
-
-        int a1 = 10 % 3;
-        System.out.println(a1);
+        System.out.println(k);
     }
 }

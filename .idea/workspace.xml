@@ -8,10 +8,15 @@
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lesson1/russian/Hello.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lesson2/Variables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/MathOperations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lesson3/Primitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/Scope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/Ternary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/MultiArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/english/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/MathOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +59,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Array.executor": "Run",
+    "Application.Conditions.executor": "Run",
     "Application.Hello.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MathOperations.executor": "Run",
+    "Application.MultiArray.executor": "Run",
     "Application.Primitives.executor": "Run",
+    "Application.Scope.executor": "Run",
+    "Application.Ternary.executor": "Run",
     "Application.Variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,27 +86,13 @@
       <recent name="russian" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathOperations">
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.russian.english.Hello" />
-      <module name="java_core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java_core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.MathOperations" />
+  <component name="RunManager" selected="Application.MultiArray">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.Array" />
       <module name="java_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primitives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.Primitives" />
+    <configuration name="Conditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.Conditions" />
       <module name="java_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +113,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Variables" />
+    <configuration name="MultiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.MultiArray" />
       <module name="java_core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.Scope" />
+      <module name="java_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ternary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.Ternary" />
+      <module name="java_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathOperations" />
-        <item itemvalue="Application.Primitives" />
-        <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MultiArray" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Ternary" />
+        <item itemvalue="Application.Scope" />
+        <item itemvalue="Application.Conditions" />
       </list>
     </recent_temporary>
   </component>
